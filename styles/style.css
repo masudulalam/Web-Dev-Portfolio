@@ -37,6 +37,7 @@
 nav {
     display: flex;
     justify-content: space-around;
+    align-items: center;
 }
 
 .nav-title {
@@ -50,6 +51,7 @@ nav {
 nav ul {
     display: flex;
     gap: 40px;
+    align-items: center;
 }
 
 nav ul li {
