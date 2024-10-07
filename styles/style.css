@@ -109,10 +109,12 @@ nav li a:hover {
 .banner{
     display: flex;
     justify-content: space-between;
+    margin-top: 180px;
 }
 
 .banner-content{
     max-width: 650px;
+    margin-left: 290px;
 }
 
 .banner-greetings {
@@ -133,4 +135,8 @@ nav li a:hover {
 
 .banner-profile-picture{
     width: 580px;
+    height: 670px;
+    margin-right: 60px;
+    /* margin-top: 50px; */
+    border: 1px solid black;;
 }
