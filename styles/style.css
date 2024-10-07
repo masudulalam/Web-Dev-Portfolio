@@ -97,18 +97,33 @@ nav li a:hover {
     /* padding: 10px */
 }
 
-/* header style */
+
 /* header background image */
-header{
-    background-image: url("../images/header_bg.png");
+.header{
+    background-image: url("../images/developer.png"), url("../images/header_bg.png");
     background-repeat: no-repeat;
-    background-position: right;
+    background-position: top left, bottom right;
     border: 1px solid black;
 }
-.header-title-section{
-    width: 650px;
+/* banner style */
+.banner{
+    display: flex;
+    justify-content: space-between;
 }
-.header-title {
+
+.banner-content{
+    max-width: 650px;
+}
+
+.banner-greetings {
+    font-size: 45px;
+    font-weight: 600;
+    line-height: 61px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.banner-title {
     font-size: 85px;
     font-weight: 700;
     line-height: 116px;
@@ -116,10 +131,6 @@ header{
     text-align: left;
 }
 
-.header-sub-title {
-    font-size: 45px;
-    font-weight: 600;
-    line-height: 61px;
-    letter-spacing: 0%;
-    text-align: left;
+.banner-profile-picture{
+    width: 580px;
 }
