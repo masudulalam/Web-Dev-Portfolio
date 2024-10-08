@@ -13,6 +13,9 @@
 }
 
 /* common style */
+.background-secondary{
+    background: rgb(255, 248, 243);
+}
 .mt-20 {
     margin-top: 20px;
 }
@@ -253,12 +256,17 @@ nav li a:hover {
     border: 1px solid black;
 }
 
+/* main style */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
 /* About me section style */
 .about-me-section {
     display: flex;
     justify-content: center;
     border-radius: 10px;
-    background: rgb(255, 248, 243);
     width: 1140px;
     height: 550px;
     margin: 0 auto;
@@ -267,8 +275,7 @@ nav li a:hover {
 }
 
 .about-me-container {
-    width: 900px;
-    /* border: 1px solid black; */
+    padding: 130px 150px;
 }
 
 .info-container {
@@ -284,8 +291,7 @@ nav li a:hover {
 }
 
 .what-I-do-description {
-    width: 900px;
-    margin: 0 auto;
+    padding: 0px 150px;
 }
 
 .card {
@@ -312,7 +318,7 @@ nav li a:hover {
 
 /* lets-connect-section */
 .lets-connect-section-container{
-    background: rgb(255, 248, 243);
+    /* background: rgb(255, 248, 243); */
     margin-top: 110px;
     display: flex;
     gap: 120px;
