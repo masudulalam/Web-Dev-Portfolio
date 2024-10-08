@@ -13,6 +13,10 @@
 }
 
 /* common style */
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
+}
 .background-secondary{
     background: rgb(255, 248, 243);
 }
@@ -322,21 +326,16 @@ main{
 
 /* lets-connect-section */
 .lets-connect-section-container{
-    /* background: rgb(255, 248, 243); */
     margin-top: 110px;
     display: flex;
     gap: 120px;
-    justify-content: center;
+    /* justify-content: center; */
     padding: 130px 0;
 }
 
 .lets-connect-media{
-    width: 560px;
+    /* width: 560px; */
 }
-
-/* .social-media-container{
-    margin-right: 30px;
-} */
 
 .lets-connect-form form input{
     display: block;
