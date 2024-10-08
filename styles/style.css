@@ -329,14 +329,17 @@ main{
     margin-top: 110px;
     display: flex;
     gap: 120px;
-    /* justify-content: center; */
     padding: 130px 0;
-}
-
-.lets-connect-media{
-    /* width: 560px; */
 }
 
 .lets-connect-form form input{
     display: block;
+}
+
+form input[type="text"], input[type="email"], textarea{
+    width: 100%
+}
+
+.lets-connect-media {
+    width: 50%;
 }
