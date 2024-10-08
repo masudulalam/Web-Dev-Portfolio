@@ -32,6 +32,9 @@
 .mb-40 {
     margin-bottom: 40px;
 }
+.mr-20{
+    margin-right: 20px;
+}
 
 .center {
     text-align: center;
@@ -287,7 +290,24 @@ nav li a:hover {
     margin-top: 80px;
 }
 
-/* lets-connet-section */
-.lets-connect-section{
+/* lets-connect-section */
+.lets-connect-section-container{
+    background: rgb(255, 248, 243);
     margin-top: 110px;
+    display: flex;
+    gap: 120px;
+    justify-content: center;
+    padding: 130px 0;
+}
+
+.lets-connect-media{
+    width: 560px;
+}
+
+/* .social-media-container{
+    margin-right: 30px;
+} */
+
+.lets-connect-form form input{
+    display: block;
 }
