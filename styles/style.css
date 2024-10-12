@@ -164,18 +164,25 @@ h6 {
     /* background: mediumseagreen; */
 }
 
+.btn-contact:hover{
+    color: #fff;
+}
+
 .btn-b {
     width: 200px;
     height: 64px;
+}
+
+.btn-b:hover{
+    background:  rgb(8, 176, 84);
 }
 
 .btn-s {
     width: 150px;
     height: 64px;
 }
-
-nav a#btn-s:hover{
-    background: rgb(144, 223, 170); 
+.btn-s:hover{
+    background:  rgb(8, 176, 84);
 }
 
 .summary-content-w{
@@ -347,6 +354,9 @@ form input[type="text"], input[type="email"], textarea{
     width: 100%
 }
 
+form input[type="submit"]:hover{
+    background: rgb(8, 176, 84);
+}
 .lets-connect-media {
     width: 50%;
 }
