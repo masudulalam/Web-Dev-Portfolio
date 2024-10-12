@@ -150,6 +150,7 @@ h6 {
     /* border: none; */
     border-radius: 5px;
     background: mediumseagreen;
+    cursor: pointer;
 }
 
 .btn-contact {
@@ -159,6 +160,7 @@ h6 {
     /* border: none; */
     border: 2px solid mediumseagreen;
     border-radius: 5px;
+    cursor: pointer;
     /* background: mediumseagreen; */
 }
 
@@ -170,6 +172,10 @@ h6 {
 .btn-s {
     width: 150px;
     height: 64px;
+}
+
+nav a#btn-s:hover{
+    background: rgb(144, 223, 170); 
 }
 
 .summary-content-w{
@@ -212,11 +218,12 @@ nav li a {
     font-size: 20px;
 }
 
-nav li a:hover {
-    font-weight: bold;
+.nav li a:hover {
+    color: mediumseagreen;
+    /* font-weight: bold; */
     /* border: 1px solid mediumseagreen; */
-    /* border-radius: 5px; */
-    /* padding: 10px */
+    /* border-radius: 5px;
+    padding: 6px 8px 6px 10px */
 }
 
 

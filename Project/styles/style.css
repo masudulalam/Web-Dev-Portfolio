@@ -1,0 +1,337 @@
+/* google font */
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Azeret Mono", monospace;
+    }
+
+/* common styles */
+.container {
+    max-width: 1140px;
+    /* border: 2px solid mediumseagreen; */
+}
+
+.center{
+    margin: 0 auto;
+}
+.text-normal {
+    line-height: 26px;
+}
+
+.section-title-main {
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+}
+
+.section-title-sub {
+    color: rgba(13, 19, 33, 0.7);
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    margin-bottom: 16px;
+}
+
+.section-title {
+    max-width: 850px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.sub-section-bg {
+    border-radius: 16px;
+    background: linear-gradient(90.00deg, rgb(255, 255, 255), rgba(255, 255, 255, 0) 100%);
+}
+
+.btn-learn-more {
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    width: 171px;
+    height: 47px;
+    padding: 12px 20px 12px 20px;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    margin-top: 32px;
+    cursor: pointer;
+}
+
+.btn-learn-more:hover {
+    background: lightgray;
+}
+
+.mt-24 {
+    margin-top: 24px;
+}
+
+.mb-24 {
+    margin-bottom: 24px;
+}
+
+/* Download section style */
+.download {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* border: 1px solid lightgray; */
+    /* border-radius: 5px; */
+}
+
+.btn-download {
+    padding: 17px 24px;
+    margin: 40px 0;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+a#btn-download {
+    text-decoration: none;
+}
+
+.btn-download:hover {
+    border: 2px solid mediumseagreen;
+    /* border-color: mediumseagreen; */
+    /* color: mediumseagreen; */
+    /* background: lightgray; */
+}
+
+/* banner section styles */
+.banner {
+    max-width: 1440px;
+    background-image: url("../assets/Hero-bg.png");
+    text-align: center;
+}
+
+.banner-image {
+    margin-top: 60px;
+}
+
+.banner-text {
+    max-width: 998px;
+    margin: 0 auto;
+    /* margin-bottom: 110px; */
+}
+
+.banner-title {
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 68px;
+    margin: 32px 0;
+}
+
+.banner-paragraph {
+    line-height: 26px;
+    margin-bottom: 32px;
+}
+
+.contact-btn {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    border-radius: 8px;
+    background: rgb(13, 19, 33);
+    width: 244px;
+    height: 65px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.contact-btn:hover {
+    background-color: mediumseagreen;
+}
+
+a#contact-btn:hover {
+    color: mediumseagreen;
+}
+
+a#contact-btn:link,
+a#contact-btn:visited,
+a#contact-btn:active {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* why web development section styles */
+.why-web-development {
+    max-width: 1140px;
+    border-radius: 16px;
+    background-color: rgba(13, 19, 33, 0.02);
+    margin-top: 80px;
+    padding: 80px 0;
+    /* border: 2px solid mediumseagreen; */
+}
+
+.why-web-development-sub-section {
+    max-width: 850px;
+    display: flex;
+    gap: 100px;
+    padding: 48px;
+    /* border: 1px solid mediumseagreen; */
+}
+
+.sub-section-text-container {
+    max-width: 477px;
+    margin-bottom: 32px;
+}
+
+/* My inspiration Section styles */
+.my-inspiration-section {
+    margin-top: 90px;
+}
+
+.video {
+    padding: 32px;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+}
+
+/* Current Target Section Styles */
+.current-target-section {
+    margin-top: 150px;
+    margin-bottom: 110px;
+}
+
+.current-target-card-container {
+    display: flex;
+    gap: 24px;
+    /* border: 1px solid mediumseagreen; */
+}
+
+.target-card {
+    max-width: 364px;
+    background: rgba(255, 76, 30, 0.05);
+    border-radius: 16px;
+    padding: 40px;
+    /* border: 1px solid mediumseagreen; */
+}
+
+.target-card-bg-2 {
+    background: rgba(0, 76, 232, 0.05);
+}
+
+.target-card-bg-3 {
+    background: rgba(255, 223, 0, 0.05);
+}
+
+.card-title {
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+    margin-bottom: 10px;
+}
+
+.card-text-container {
+    margin: 24px 0;
+}
+
+/* Next Target Section Styles */
+.next-target-section {
+    margin: 110px 0px 50px 0px;
+}
+
+.next-target-card {
+    display: flex;
+    /* box-sizing: border-box; */
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    gap: 20px;
+    padding: 40px;
+    margin-bottom: 24px;
+}
+
+/* Need Support Section Styles */
+.need-support-section {
+    background-image: url("../assets/handshake.jpg");
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 64px 48px;
+}
+
+.need-support-text-container {
+    width: 730px;
+    margin-bottom: 30px;
+}
+
+.need-support-title {
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 36px;
+    margin-bottom: 16px;
+}
+
+.text-need-support {
+    color: rgb(255, 255, 255);
+    opacity: 0.7;
+}
+
+.need-support-section input[type="text"] {
+    width: 548px;
+    height: 57px;
+    padding: 19px 20px 19px 20px;
+    margin: 0px 16px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+}
+
+.need-support-section input[type="submit"] {
+    width: 120px;
+    height: 57px;
+    padding: 17px 20px 17px 20px;
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    cursor: pointer;
+}
+
+.need-support-section input[type="submit"]:hover {
+    background-color: lightgray;
+}
+
+/* Footer Styles */
+.footer {
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.03);
+    padding: 32px 0;
+    /* text-align: right; */
+    margin-top: 80px;
+}
+
+.footer-content-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#btn-top {
+    text-align: right;
+    margin-right: 9px;
+}
+
+.btn-top {
+    padding: 4px 8px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.btn-top:hover {
+    border: 2px solid mediumseagreen;
+    /* color: mediumseagreen; */
+    background: lightgray;
+}
